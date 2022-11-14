@@ -1,6 +1,5 @@
 package com.liceokeplero.school.model;
 
-import com.liceokeplero.school.enums.AcademicYear;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,5 +13,5 @@ public class Subject
 {
     private String subjectId;
     private String description;
-    private AcademicYear academicYear;
+    private Integer academicYear;
 }

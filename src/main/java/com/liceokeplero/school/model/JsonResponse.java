@@ -1,5 +1,13 @@
 package com.liceokeplero.school.model;
 
-public class JsonResponse {
+import lombok.Data;
+
+@Data
+public class JsonResponse
+{
+    private Integer statusCode;
+    private String code;
+    private String error;
+    private String message;
 
 }

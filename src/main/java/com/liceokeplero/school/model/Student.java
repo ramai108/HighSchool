@@ -1,13 +1,9 @@
 package com.liceokeplero.school.model;
-import com.liceokeplero.school.enums.AcademicYear;
 import lombok.*;
 
 import java.util.Date;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Data
 public class Student
 
 {
@@ -17,7 +13,6 @@ public class Student
     private String address;
     private String birthDate;
     private Date enrollmentDate;
-    private AcademicYear academicYear;
+    private Integer academicYear;
     private String phoneNumber;
-
 }
